@@ -6,7 +6,9 @@ target 'SJSwiftExtensions_Example' do
   target 'SJSwiftExtensions_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
+    pod 'SJSwiftExtensions', :path => '../'
+    
+    pod 'Quick'
+    pod 'Nimble'
   end
 end

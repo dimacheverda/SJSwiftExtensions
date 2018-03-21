@@ -4,8 +4,8 @@ PODS:
   - SJSwiftExtensions (0.1.0)
 
 DEPENDENCIES:
-  - Nimble (~> 7.0.2)
-  - Quick (~> 1.2.0)
+  - Nimble
+  - Quick
   - SJSwiftExtensions (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  SJSwiftExtensions: bccd18c5829ee6358fef38d3a67f083bcca82170
+  SJSwiftExtensions: 71b7463f392888cd59c257d3832a2e24d4cd6bdb
 
-PODFILE CHECKSUM: 1de92e00a9ef045f6486dfdcb1e9c58def3cfcda
+PODFILE CHECKSUM: 943b1eeabe1ec9fc878c1cc12ad411b8328342d1
 
 COCOAPODS: 1.4.0
