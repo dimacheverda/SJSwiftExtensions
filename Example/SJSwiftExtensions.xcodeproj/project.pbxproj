@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A1D36FDE6DBDAD564467EA2D /* Pods_SJSwiftExtensions_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31306D7DD1724BD3FDDBA90C /* Pods_SJSwiftExtensions_Example.framework */; };
+		D0FE02BC2062979000B960E6 /* TestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FE02BA2062979000B960E6 /* TestTableViewCell.swift */; };
+		D0FE02BD2062979000B960E6 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0FE02BB2062979000B960E6 /* TestTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		9B8287810A45F26F0712DC02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AB0CC44568162EFCAFCE2334 /* Pods-SJSwiftExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJSwiftExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJSwiftExtensions_Tests/Pods-SJSwiftExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0C2A9138BA8368BA5949944 /* Pods_SJSwiftExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJSwiftExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FE02BA2062979000B960E6 /* TestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewCell.swift; sourceTree = "<group>"; };
+		D0FE02BB2062979000B960E6 /* TestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
 		DF39D0C6E380C2FA48D69EFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				D0FE02BA2062979000B960E6 /* TestTableViewCell.swift */,
+				D0FE02BB2062979000B960E6 /* TestTableViewCell.xib */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -259,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0FE02BD2062979000B960E6 /* TestTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				D0FE02BC2062979000B960E6 /* TestTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

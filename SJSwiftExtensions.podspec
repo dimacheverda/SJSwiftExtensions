@@ -22,13 +22,9 @@ Some average description goes here to define keywords
   s.social_media_url = 'https://twitter.com/cheverda'
 
   s.ios.deployment_target = '9.0'
-
-  s.source_files = 'SJSwiftExtensions/Classes/**/*'
+  s.swift_version = '4.0'
   
-  # s.resource_bundles = {
-  #   'SJSwiftExtensions' => ['SJSwiftExtensions/Assets/*.png']
-  # }
+  s.source_files = 'SJSwiftExtensions/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
 end
