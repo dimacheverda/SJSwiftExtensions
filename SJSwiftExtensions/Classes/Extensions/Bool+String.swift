@@ -12,4 +12,8 @@ extension Bool {
     public var stringValue: String {
         return self ? "true" : "false"
     }
+    
+    public var toggle: Bool {
+        return !self
+    }
 }

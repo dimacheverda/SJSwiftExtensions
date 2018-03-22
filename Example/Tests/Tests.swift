@@ -25,6 +25,14 @@ class Specs: QuickSpec {
                     expect(false.stringValue).toNot(equal("true"))
                 }
             }
+            context("toggles") {
+                it("from true value", closure: {
+                    expect(true.toggle) == false
+                })
+                it("from false value", closure: {
+                    expect(false.toggle) == true
+                })
+            }
         }
         
         describe("collection") {
