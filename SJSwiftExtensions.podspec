@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJSwiftExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Common extension for Foundation and UIKit classes'
 
   s.description      = <<-DESC
-Some average description goes here to define keywords
+  Common extension for basic classes and types to speed up development time.
                        DESC
 
   s.homepage         = 'https://github.com/dimacheverda/SJSwiftExtensions'

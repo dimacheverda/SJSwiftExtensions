@@ -12,7 +12,7 @@ extension UIColor {
     
     // MARK: - HEX
     
-    convenience init(colorWithHexValue value: Int, alpha: CGFloat = 1.0) {
+    public convenience init(colorWithHexValue value: Int, alpha: CGFloat = 1.0) {
         self.init(
             red: CGFloat((value & 0xFF0000) >> 16) / 255.0,
             green: CGFloat((value & 0x00FF00) >> 8) / 255.0,
@@ -23,15 +23,17 @@ extension UIColor {
     
     // MARK: - Lighter/Darker Colors
     
-    func lighter(by percentage: CGFloat = 30.0) -> UIColor {
+    public func lighter(by percentage: CGFloat = 30.0) -> UIColor {
         return self.adjust(by: abs(percentage))
     }
     
-    func darker(by percentage: CGFloat = 30.0) -> UIColor {
+    public func darker(by percentage: CGFloat = 30.0) -> UIColor {
         return self.adjust(by: -1 * abs(percentage))
     }
     
-    func adjust(by percentage: CGFloat = 30.0) -> UIColor {
+    // MARK: - Private
+    
+    private func adjust(by percentage: CGFloat = 30.0) -> UIColor {
         var r: CGFloat = 0.0
         var g: CGFloat = 0.0
         var b: CGFloat = 0.0

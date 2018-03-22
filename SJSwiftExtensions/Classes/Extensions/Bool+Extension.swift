@@ -1,5 +1,5 @@
 //
-//  Bool+String.swift
+//  Bool+Extension.swift
 //  Voyage TCE
 //
 //  Created by Dmytro on 16/2/18.

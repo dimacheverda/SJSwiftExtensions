@@ -1,5 +1,5 @@
 //
-//  String+Lowercase.swift
+//  String+Extension.swift
 //  Voyage TCE
 //
 //  Created by Dmytro on 12/27/17.

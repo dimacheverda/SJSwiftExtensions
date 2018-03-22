@@ -1,5 +1,5 @@
 //
-//  Collection+IsNotEmpty.swift
+//  Collection+Extension.swift
 //  Voyage TCE
 //
 //  Created by Dmytro on 15/2/18.
